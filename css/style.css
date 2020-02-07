@@ -1,0 +1,512 @@
+/* ================================= 
+  Base layout styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+    font-size: .95em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    line-height: 1.65;
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'roboto', 'Bebas Neue', 'Marck Script', sans-serif, cursive;
+}
+
+
+.container {
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+.col {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.main-header {
+	padding-top: 3em;
+	padding-bottom: 1.5em;
+    background: rgb(204, 245, 239);
+    background-position: center;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px;  
+}
+
+/* ================================= 
+ Navigation layout styles
+==================================== */
+
+.name {
+    font-size: 35px;
+    font-family: 'Mark Script', cursive;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+.name a,
+.main-nav a {
+    display: block;
+}
+
+.main-nav li {
+	text-align: center;
+	background: #fff;
+    list-style-type: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 6px 8px;
+    /*margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 8px;
+    margin-left: 8px;
+    display: block;*/  
+}
+
+.main-nav a {
+    font-size: 1em;
+    font-weight: 700;
+	color: #070707;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: #58090d;
+}
+
+.main-nav ul {
+    margin-bottom: 50px;
+}
+
+/* ================================= 
+ Portfolio and skills section styles
+==================================== */
+
+
+.Portfolio {
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+.Skills {
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    
+}
+
+.Skill ul {
+    text-align: center;
+    line-height: 2;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    list-style-type: none;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.marketing-page {
+    text-align: center;
+    font-size: 16px;
+}
+
+.search-page {
+    text-align: center;
+    font-size: 16px;
+}
+
+.travel-app {
+    text-align: center;
+    font-size: 16px;
+}
+
+.map-spot {
+    text-align: center;
+    font-size: 16px;
+}
+
+.photo-gallery {
+    text-align: center;
+    font-size: 16px;
+}
+
+.calculator-device {
+    text-align: center;
+    font-size: 16px;
+}
+
+.logo {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.marketing {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.search {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.travel {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.map {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.photo {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.calculator {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.Contact {
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 35px 0;
+    padding-top: 16px;
+
+}
+
+.main-footer {
+    background: rgb(204, 245, 239);
+    margin-top: 65px;
+    padding: 1em 8px 48px 8px;
+
+}
+
+.phone a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.email a {
+    text-align: center;
+    text-decoration: none;
+    margin-top: -10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+#footer-btp {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+
+}
+
+.footer-name {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.footer-nav,
+.footer-nav li {
+    display: inline;
+}
+
+#footer-home,
+#footer-portfolio,
+#footer-contact,
+#footer-skills {
+    display: none;
+}
+
+
+
+.group::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  @media (min-width: 768px) {
+
+    
+    .primary,
+    .secondary,
+    .tertiary {
+		width: 50%;
+    }
+    
+    .container {
+		width: 95%;
+        margin: 0 auto;
+    }
+    
+    .profile,
+    .col {
+		float: left;
+    }
+
+    .logo {
+        float: right;
+        width: 40%;
+        padding-right: 8px;
+    }
+
+    .intro {
+        width: 60%;
+        margin: 30px 0;
+        float: left;
+        text-align: left;
+        padding-right: 18px;
+        padding-left: 18px;
+        /* margin-top: 40px;
+        margin-bottom: 40px; */
+    }
+
+    .main-nav {
+        text-align: center;
+    }
+
+    .name {
+        margin-bottom: -6px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        list-style-type: none;
+        background-color: rgb(204, 245, 239);
+        margin: 0 20px;
+ 
+    }
+
+    .main-nav ul {
+        margin-bottom: 10px;
+    }
+
+    .Skills,
+    .Skill {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+    #footer-home,
+    #footer-portfolio,
+    #footer-contact,
+    #footer-skills {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    #footer-contact {
+        margin-right: 0;
+    }
+
+
+    .footer-nav ul li {
+        float: left;
+    }
+
+
+    .footer-name {
+        display: inline-block;
+    }
+
+    .footer-nav {
+        float: right;
+    }
+
+    #footer-btp {
+        display: none;
+    }
+
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+}
+ 
+
+
+@media (min-width: 1024px) {
+
+   .logo {
+        padding-right: 8px; 
+        padding-left: 8px;   
+
+    }
+
+    .intro {
+        padding-right: 25px;
+        padding-left: 8px;
+
+    }
+
+    .container {
+        width: 85%;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .primary,
+    .secondary,
+    .tertiary {
+        width: 33.33%;
+        display: inline-block;
+    }
+
+    .col {
+        float: left;
+        min-height: 403px;
+        /*min-height: 405px;*/
+    }
+
+    .main-nav li {
+       float: left;
+       margin: 7px 20px 0 20px;
+       padding: 0;
+       font-size: 18px;
+       /*margin: 0 20px;
+       margin-top: 7px;*/
+    }
+
+    .name {
+        text-align: left;
+        display: inline-block;
+        line-height: 1.7;
+        margin: 0;  
+        padding-left: 8px;
+        font-size: 35px;
+
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .wrapper {
+        margin: 0 15px;
+        padding-bottom: 25px;
+        background-color: white;
+
+    }
+
+    .wrap {
+        background-color:rgb(204, 245, 239);
+        
+    }
+
+    .Portfolio {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .main-footer {
+        margin-top: 0;
+    }
+
+    .Skills {
+        margin-top: 30px;      
+    }
+
+    #footer-portfolio,
+    #footer-home {
+        padding-right: 4px;
+    }
+
+    #footer-home,
+    hr {
+        padding-right: 6px;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      } 
+}  
+    
+
+
+ 
